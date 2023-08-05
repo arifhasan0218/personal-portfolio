@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+* {
+  
+  color: #fff;
+}
+
+body{
+  background: #303e52;
+  font-family: var(--body-font);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul{
+  list-style: none;
+}
+
+.btn-primary{
+  background-color: var(--commont-color) !important;
+  color: #202833;
+  border: 0;
+  display: inline-block;
+}
+.btn-primary:hover{
+  background: #12aca1 !important;
+  color: #fff;
+}
+
+
+
+:root {
+  --title-font: 'Bebas Neue', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
+  --commont-color: #66fcf1;
+}
+
+
+.highlight {
+  color: var(--commont-color) !important;
+}
+
+.section-padding {
+  padding: 90px 0;
+}
+
+.section-header h2{
+  margin-bottom: 30px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  position: relative;
+  font-family: var(--title-font);
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section-header h2::before{
+  background: var(--commont-color);
+  width: 5px;
+  height: 40px;
+  content: '';
+  left: -20px;
+  top: 50%;
+  position: absolute;
+  transform: translate(50%,-50%);
+}
+
+
+
+/*------------------------Navigation css----------------------- */
+.navbar-brand {
+  font-size: 2rem;
+  font-family: var(--title-font);
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #fff !important;
+}
+
+.navbar-light {
+  background: #303e52;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: var(--commont-color) !important;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/*------------------------home css----------------------- */
+.home {
+  background-image: radial-gradient(#303e52, #202833);
+  width: 100%;
+
+}
+
+.hero-text {
+  padding: 20px 30px;
+}
+
+.hero-text h5 {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.home .hero-text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: var(--title-font);
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-btn {
+  background: transparent;
+  border: 2px solid var(--commont-color);
+  position: relative;
+  display: inline-block;
+}
+
+/*------------------------About css----------------------- */
+.about {
+  background: #303e52;
+}
+
+.about-site{
+  text-align: left;
+}
+
+
+.about .left-img {
+  background: url(../img/profile.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px;
+  border: 4px solid #66fcf1;
+  border-radius: 50%;
+}
+
+
+
+.left-side h4 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-family: var(--title-font);
+}
+
+.left-side i{
+  padding: 0 15px;
+  font-size: 22px;
+}
+
+
+.fa-door-open{
+  font-size: 30px;
+}
+
+.social-icon i{
+  color: var(--commont-color) !important;
+  transition: all 0.5s;
+}
+.social-icon i:hover{
+  transform: translateY(-10px);
+}
+
+.right-side .title h4{
+  font-size: 25px;
+  font-weight: 700;
+}
+.right-side .pera{
+  padding: 43px;
+}
+
+
+
+/*------------------------Skills css----------------------- */
+.singel-skill{
+  padding: 30px 20px;
+  background: #fff;
+  color: #303e52 !important;
+  margin: 10px;
+  /* max-height: 500px;
+  height: 100%; */
+  border-radius: 8px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.singel-skill::before{
+  content: '';
+  background: var(--commont-color);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  border-radius: 0 0 8px 8px;
+}
+
+.singel-skill:hover{
+  transform: scale(1.05);
+}
+.singel-skill:hover img{
+  filter: grayscale(0%);
+}
+
+.singel-skill h4{
+  color: #303e52;
+}
+
+.skill img{
+  margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  border: 5px solid var(--commont-color);
+}
+
+.singel-skill h4{
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.singel-skill p{
+  color: #202833;
+}
+
+/*------------------------Portfolio css----------------------- */
+.singel-portfolio{
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.singel-portfolio:hover{
+  transform: scale(1.05);
+}
+.singel-portfolio:hover .btn{
+  background: #12aca1 !important;
+}
+
+.singel-portfolio h2{
+  color: #303e52;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.singel-portfolio p{
+  color: #303e52 !important;
+}
+
+.portfolio-img img{
+  height: 300px;
+  width: auto;
+}
+
+/*------------------------Contact css----------------------- */
+
+.left-contact ul li{
+  margin-bottom: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+
+
+label{
+  margin-bottom: 5px;
+  font-family: var(--title-font);
+  font-size: 22px;
+}
+
+input{
+  margin-bottom: 5px;
+}

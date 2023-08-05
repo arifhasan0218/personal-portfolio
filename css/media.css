@@ -1,0 +1,63 @@
+
+/*-----------Responsive section------------------*/
+
+@media only screen and (max-width:576px) {
+
+    .section-padding {
+      padding: 100px 0 40px;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+  
+    .hero-text {
+      text-align: center;
+    }
+  
+    .hero-text h5 {
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+  
+    .hero-text h1 {
+      font-size: 40px !important;
+    }
+  
+    .hero-text p {
+      font-size: 12px !important;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+  
+    .btn {
+      font-size: 12px !important;
+      font-weight: 300 !important;
+    }
+  
+    .section-header h2{
+      font-size: 30px;
+    }
+  
+  .social-icon{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #66fcf1;
+    margin-bottom: 30px;
+  }
+    
+  
+    .right-side p{
+      text-align: justify;
+      letter-spacing: 1.4;
+      font-size: 12px;
+    }
+  
+    .singel-portfolio{
+      margin-bottom: 30px;
+    }
+  
+    .xs-b{
+      margin-bottom: 30px;
+    }
+  }
