@@ -8,7 +8,7 @@
 body{
   background: #303e52;
   font-family: var(--body-font);
-}
+} 
 
 html{
   scroll-behavior: smooth;
